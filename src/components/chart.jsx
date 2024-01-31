@@ -1,20 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Chart as ChartJS } from 'chart.js/auto';
 import { Line } from 'react-chartjs-2';
+import { useEffect } from 'react';
 
 function chart(props) {
- 
-    const rowData = props.rows;
-    const xvalue=Object.entries(rowData).map(([key, value])=>{
-      // console.log(value.monthYear);
-      return value.monthYear;
-    })
-    const yvalue=Object.entries(rowData).map(([key, value])=>{
-      // console.log(value.average);
-      return value.average;
-    })
-    // console.log(xvalue);
-    // console.log(yvalue);
+    const [xValue, setXvalue] = useState();
+    const [yValue, setYvalue] = useState();
+    useEffect(() => {
+      async function charts() {
+        const rowData = await props.rows;
+        // console.log(rowData);
+        const xvalue=Object.entries(rowData).map(([key, value])=>{
+          // console.log(value.monthYear);
+          return value.monthYear;
+        })
+        const yvalue=Object.entries(rowData).map(([key, value])=>{
+          // console.log(value.average);
+          return value.average;
+        })
+        setXvalue(xvalue);
+        setYvalue(yvalue);
+      }
+      charts();
+    },[props])
 
   function getGradient(chart) {
     const {ctx, chartArea: {top,bottom,left,right} }=chart;
@@ -29,11 +37,11 @@ function chart(props) {
   return (
     <>
     <Line data={{
-      labels: xvalue,
+      labels: xValue,
       datasets:[
         {
           label: "Profit percentage",
-          data: yvalue,
+          data: yValue,
           fill: true,
           borderDash: [3,3],
           pointRadius: 0,
