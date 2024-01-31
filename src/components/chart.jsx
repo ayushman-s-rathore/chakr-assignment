@@ -9,21 +9,25 @@ function chart(props) {
     useEffect(() => {
       async function charts() {
         const rowData = await props.rows;
-        // console.log(rowData);
+        console.log(rowData);
         const xvalue=Object.entries(rowData).map(([key, value])=>{
           // console.log(value.monthYear);
           return value.monthYear;
         })
+        console.log(xvalue);
         const yvalue=Object.entries(rowData).map(([key, value])=>{
           // console.log(value.average);
           return value.average;
         })
+        console.log(yvalue)
         setXvalue(xvalue);
         setYvalue(yvalue);
       }
       charts();
     },[props])
-
+    console.log(xValue);
+    console.log(yValue);
+    
   function getGradient(chart) {
     const {ctx, chartArea: {top,bottom,left,right} }=chart;
     const gradient=ctx.createLinearGradient(0,top,0,bottom);
