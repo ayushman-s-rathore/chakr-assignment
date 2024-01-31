@@ -1,0 +1,70 @@
+.user-name{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin-right: 2rem;
+    justify-content: left;
+    border-radius: 1rem;
+    
+}
+.image{
+    
+    font-size: 10px;
+
+}
+.name{
+    width: 100%;
+    color: var(--Black, #131313);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    margin-left: 12px;
+
+
+}
+.user-work{
+    display: flex;
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 12px;
+    justify-content: left;
+    color: var(--Dark-Gray, #454545);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    
+}
+.name-admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    width: 100%;
+}
+.final{
+    display: flex;
+    color: var(--Dark-Orange, #734A00);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    justify-content: left;
+    align-items: center;
+    margin-top: 29px;
+}
+.hiddenitems{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    
+}

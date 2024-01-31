@@ -1,0 +1,14 @@
+.lostdeals{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+    height: 12rem;
+    width: 34%;
+    margin-left: 16px;
+    border-radius: 16px;
+    padding: 24px 24px 24px 24px;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+}

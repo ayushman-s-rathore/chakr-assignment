@@ -1,0 +1,45 @@
+.deals{
+    display: flex;
+    min-width: 20rem;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+    flex: 1 0 0;
+    align-self: stretch;
+    background-color: white;
+    border-radius: 1rem;
+    color: var(--Black, #131313);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.0125rem;
+    
+}
+.dealers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.dealers button{
+    display: flex;
+    padding: 0.75rem 1rem 0.75rem 0.75rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    background: var(--Light-Orange, #FFF7E8);
+    border: none;
+    color: var(--Dark-Orange, #734A00);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01875rem;
+}

@@ -1,0 +1,50 @@
+.revenue{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+    height: 12rem;
+    width: 34%;
+    margin-left: 16px;
+    border-radius: 16px;
+    padding: 24px 24px 24px 24px;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+ 
+}
+.numbers{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -2px;
+    margin-top: 16px;
+}
+.inc{
+    color: #454545;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+}
+.report{
+    display: flex;
+    color: var(--Dark-Orange, #734A00);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    justify-content: left;
+    align-items: center;
+    margin-top: 4rem;
+}
+.report svg{
+    padding-left: 4px;
+    margin-top: 1px;
+}

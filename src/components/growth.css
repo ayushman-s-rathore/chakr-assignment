@@ -1,0 +1,45 @@
+.growth{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    width: 91%;
+    height: 12.5rem;
+    min-height: 12.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.growth-layer1{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    color: var(--Black, #131313);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.0125rem;
+}
+.growth-layer1 button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 4.2rem;
+    background-color: white;
+    border: none;
+    color: var(--Dark-Gray, #454545);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.01875rem;
+}
+.lineChart{
+    display: flex;
+    justify-content: end;
+    height: 12rem;
+    width: 80%;
+}
