@@ -1,9 +1,9 @@
 import React from "react";
 import "./chats.css";
-import pic1 from "./assets/rectangle3.png";
-import pic2 from "./assets/rectangle6.png";
-import pic3 from "./assets/rectangle7.png";
-import pic4 from "./assets/rectangle8.png";
+import pic1 from "./assets/Rectangle3.png";
+import pic2 from "./assets/Rectangle6.png";
+import pic3 from "./assets/Rectangle7.png";
+import pic4 from "./assets/Rectangle8.png";
 
 export const chats = () => {
   return (
