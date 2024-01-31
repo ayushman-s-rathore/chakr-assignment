@@ -1,6 +1,6 @@
 import React from 'react'
 import "./buyer.css"
-import pic2 from "../assets/rectangle3.png";
+import pic2 from "../assets/Rectangle3.png";
 
 function buyer() {
   return (

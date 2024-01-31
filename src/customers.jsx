@@ -1,9 +1,9 @@
 import React from "react";
 import "./customers.css";
-import pic1 from "./assets/rectangle2.png";
-import pic2 from "./assets/rectangle3.png";
-import pic3 from "./assets/rectangle4.png";
-import pic4 from "./assets/rectangle5.png";
+import pic1 from "./assets/Rectangle2.png";
+import pic2 from "./assets/Rectangle3.png";
+import pic3 from "./assets/Rectangle4.png";
+import pic4 from "./assets/Rectangle5.png";
 import CustomerData from "./components/customerData";
 
 function customers() {
